@@ -1,5 +1,5 @@
 export const movimentacaoElements = {
-    selectType: '#tipo',
+    selectType: '#mes',
     dataDeMovimentacao: '#data_transacao',
     dataDePagamento: '#data_pagamento',
     descricao: '#descricao',
