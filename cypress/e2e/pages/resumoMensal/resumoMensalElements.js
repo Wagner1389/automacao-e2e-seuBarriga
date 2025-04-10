@@ -3,7 +3,4 @@ export const resumoMensalElements = {
     selectAno: '#ano',
     buttonBuscar: 'input[type="submit"]',
     validarDelete: 'div[role="alert"]',
-    //buttonDelete: ':nth-child()'
-    
-
 }

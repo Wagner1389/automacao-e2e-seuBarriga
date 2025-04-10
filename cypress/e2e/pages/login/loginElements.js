@@ -4,5 +4,4 @@ export const loginElements = {
     inputSenha: "#senha",
     buttonLogin: 'button[type="submit"]',
     validarLogin: 'div[role="alert"]',
-    
 }

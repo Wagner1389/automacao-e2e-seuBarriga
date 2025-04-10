@@ -9,5 +9,4 @@ export const movimentacaoElements = {
     selectSituacao: 'input[id="status_pago"]',
     buttonSalvar: 'button[type="submit"]',
     validarMovimentacao: 'div[role="alert"]'
-
 }
