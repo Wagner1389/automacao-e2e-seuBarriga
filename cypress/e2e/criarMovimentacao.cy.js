@@ -22,7 +22,6 @@ describe('movimentacao', () => {
         //     Movimentacao.situacao()
         //     Movimentacao.salvar()
         //     Movimentacao.validarMovimentacao('Movimentação adicionada com sucesso!')
-
     })
 
     it('Erro Valor', () => {
@@ -39,8 +38,6 @@ describe('movimentacao', () => {
         Movimentacao.situacao()
         Movimentacao.salvar()
         Movimentacao.validarMovimentacao('Valor é obrigatório')
-
-
     })
 
     it('Erro data de movimentação', () => {
