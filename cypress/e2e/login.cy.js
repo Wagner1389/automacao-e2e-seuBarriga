@@ -14,9 +14,6 @@ describe('login', () => {
     Login.digitarSenha('123')
     Login.clickButton()
     Login.validarLogin('Problemas com o login do usuário')
-    
-
-   
   })
 
 })

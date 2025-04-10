@@ -9,9 +9,5 @@ describe('Registro de novo usuário', () => {
         NewUser.digitarSenha(faker.internet.password())
         NewUser.clickButton()
         NewUser.validarNewUser('Usuário inserido com sucesso')
-
-
     })
-
-
 })

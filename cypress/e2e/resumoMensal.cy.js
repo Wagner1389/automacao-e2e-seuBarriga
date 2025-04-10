@@ -9,9 +9,6 @@ describe('Resumo mensal', () => {
         ResumoMensal.buscar()
         ResumoMensal.deletar()
         ResumoMensal.validarDelete('Movimentação removida com sucesso!')
-
     })
-
-
 
 })
