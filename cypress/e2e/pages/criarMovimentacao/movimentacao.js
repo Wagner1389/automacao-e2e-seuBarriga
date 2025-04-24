@@ -32,7 +32,6 @@ class Movimentacao {
         cy.get(movimentacaoElements.selectConta).select('spfc.com').should('contain.text', 'spfc.com')
     }
 
-
     situacao() {
         cy.get(movimentacaoElements.selectSituacao).check()
     }
@@ -40,7 +39,6 @@ class Movimentacao {
     salvar() {
         cy.get(movimentacaoElements.buttonSalvar).click()
     }
-
 
     validarMovimentacao(validarErro) {
         cy.get(movimentacaoElements.validarMovimentacao).should('contain.text', validarErro)

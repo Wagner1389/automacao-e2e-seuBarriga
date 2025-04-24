@@ -12,7 +12,6 @@ class NovoUser {
         cy.get(newUserElements.inputNovoEmail).type(novoEmail)
     }
 
-
     digitarSenha(novaSenha) {
         cy.get(newUserElements.inputNovaSenha).type(novaSenha)
     }
@@ -23,8 +22,8 @@ class NovoUser {
 
     validarNewUser(validarNewUser) {
             cy.get(newUserElements.validarNewUser).should('contain.text', validarNewUser)
-        }
-
+        
+    }
 
 }
 export default NovoUser = new NovoUser()

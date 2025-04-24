@@ -58,5 +58,4 @@ Cypress.Commands.add('criarMovimentacao', (dataMovi, dataPay, desc, inter, valor
     Movimentacao.salvar()
     Movimentacao.validarMovimentacao('Movimentação adicionada com sucesso!')
 
-
 })

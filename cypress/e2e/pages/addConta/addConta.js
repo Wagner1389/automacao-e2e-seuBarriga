@@ -15,9 +15,5 @@ class AddConta {
     validarRegistroDeConta() {
         cy.get(addContaElements.validarRegistro).should('have.text','Conta adicionada com sucesso!')
     }
-   
-
-   
-
 }
 export default AddConta=new AddConta()
