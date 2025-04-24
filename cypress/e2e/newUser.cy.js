@@ -10,4 +10,5 @@ describe('Registro de novo usuário', () => {
         NewUser.clickButton()
         NewUser.validarNewUser('Usuário inserido com sucesso')
     })
-})
+}) // criar commands para cadastrar usuario
+//  refatorar o projeto diminuindo linhas de codigo
