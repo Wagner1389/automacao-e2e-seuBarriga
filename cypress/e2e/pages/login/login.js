@@ -8,7 +8,6 @@ class Login {
         cy.get(loginElements.inputEmail).type(email)
     }
 
-
     digitarSenha(senha) {
         cy.get(loginElements.inputSenha).type(senha)
     }
@@ -24,8 +23,5 @@ class Login {
     erroSenha() {
         cy.get(loginElements.inputSenha).type("123")
     }
-
-
-
 }
 export default Login = new Login()

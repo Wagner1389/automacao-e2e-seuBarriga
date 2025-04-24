@@ -8,7 +8,6 @@ class ResumoMensal {
         cy.get(resumoMensalElements.selectMes).select('Fevereiro').should('have.value', '02')
     }
 
-
     selectAno() {
         cy.get(resumoMensalElements.selectAno).select('2025').should('have.value', '2025')
     }
@@ -27,14 +26,8 @@ class ResumoMensal {
     validarDelete(validarDelete) {
         cy.get(resumoMensalElements.validarDelete).should('have.text', validarDelete)
     }
-
-
-
     //deletar() {
     //cy.get(resumoMensalElements.buttonDelete).click()
     //}
-
-
-
 }
 export default ResumoMensal = new ResumoMensal()
